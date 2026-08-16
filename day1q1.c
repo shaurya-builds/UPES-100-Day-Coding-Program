@@ -23,3 +23,4 @@ int main()
     printf("The sum of two numbers is = %d\n",sum);
     return 0;
 }
+// Day 1 - Question 1
