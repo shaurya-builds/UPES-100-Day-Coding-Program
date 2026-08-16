@@ -1,4 +1,5 @@
-//Q1: Write a program to input two numbers and display their sum.
+Q2: Write a program to input two numbers and display their sum, difference, product, and quotient.
+
 #include<stdio.h>
 int main(){
     float a,b;
@@ -6,6 +7,10 @@ int main(){
     scanf("%f",&a);
     printf("enter b:");
     scanf("%f",&b);
-    printf("sum is %f",a+b);
+    printf("sum is %f\n",a+b);
+    printf("diff is %f\n",a-b);
+    printf("product is %f\n",a*b);
+    printf("quotient is %f\n",a/b);
     return 0;
+
 }
